@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="navbar">
             <AppBar 
                 position="static"
-                sx={{ bgcolor: "#004aad"}}
+                sx={{ bgcolor: "#3f3f3f"}}
             >
                 <Toolbar 
                     variant="dense"
@@ -74,13 +74,13 @@ export default function Navbar() {
                                         component="div"
                                         disablePadding
                                     >
-                                        <ListItem button>
+                                        <ListItem>
                                             <ListItemText primary="Home" />
                                         </ListItem>
-                                        <ListItem button>
+                                        <ListItem>
                                             <ListItemText primary="About" />
                                         </ListItem>{" "}
-                                        <ListItem button>
+                                        <ListItem>
                                             <ListItemText primary="Contact" />
                                         </ListItem>
                                     </List>
@@ -110,8 +110,10 @@ export default function Navbar() {
                                 <Button color="inherit">
                                     Projects
                                 </Button>
-                                <Button color="inherit">
-                                    Contact
+                            </Box>
+                            <Box class="contact-me-button">
+                                <Button sx={{color: "#3f3f3f", backgroundColor: "#ffde59"}}>
+                                    Contact Me
                                 </Button>
                             </Box>
                         </>
