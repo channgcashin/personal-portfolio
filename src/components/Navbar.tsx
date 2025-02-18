@@ -23,13 +23,13 @@ export function Navbar() {
             <span className="sr-only">Acme Inc</span>
           </a>
           <div className="grid gap-2 py-6">
-            <a href="#" className="flex rounded-md w-full items-center py-2 text-lg font-semibold bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800">
+            <a href="#home" className="flex rounded-md w-full items-center py-2 text-lg font-semibold bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800">
               Home
             </a>
-            <a href="#" className="flex rounded-md w-full items-center py-2 text-lg font-semibold bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800">
+            <a href="#about" className="flex rounded-md w-full items-center py-2 text-lg font-semibold bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800">
               About
             </a>
-            <a href="#" className="flex rounded-md w-full items-center py-2 text-lg font-semibold bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800">
+            <a href="#contact" className="flex rounded-md w-full items-center py-2 text-lg font-semibold bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800">
               Contact
             </a>
           </div>
@@ -41,19 +41,19 @@ export function Navbar() {
       </a>
       <nav className="ml-auto hidden lg:flex gap-6">
         <a
-          href="#"
+          href="#home"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800"
         >
           Home
         </a>
         <a
-          href="#"
+          href="#about"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800"
         >
-          Projects
+          About
         </a>
         <a
-          href="#"
+          href="#contact"
           className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800"
         >
           Contact
