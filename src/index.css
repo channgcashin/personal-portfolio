@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #27272a; /* Tailwind's zinc-800 */
+  height: 100%;
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -70,9 +81,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-
-@layer base {
-  :root {
-    --radius: 0.5rem;
-  }
-}

@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-zinc-800">
+    <div className="bg-zinc-800 m-0 p-0 min-h-screen flex flex-col">
       <Navbar />  
       <Home />
       <About />

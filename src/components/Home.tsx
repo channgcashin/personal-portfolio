@@ -3,7 +3,7 @@ import profPic from "/chan-prof-pic.png"
 
 export function Home() {
     return (
-        <div id="home" className="static md:flex justify-around items-center h-full">
+        <div id="home" className="static md:flex justify-around items-center h-full w-full lg:pt-10 md:pt-10 pt-20">
             <div className="w-full md:w-1/2">
                 <div className="p-8 md:pr-0 mx-auto">
                    <h1 className="lg:text-6xl text-4xl font-bold text-center text-zinc-400">
