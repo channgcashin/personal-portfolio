@@ -5,18 +5,21 @@ export function About() {
                 <div>
                     <h1 className="text-6xl font-bold text-yellow-500 ">About Me</h1>
                     <p className="pt-8 text-2xl text-zinc-400">
-                        I’m Chan W. Ng Cashin, a Purdue University graduate with a Bachelor of Science in Electrical and Computer Engineering, driven by a 
-                        passion for creating innovative software solutions that bridge technology and impact. Currently, I’m an Associate Software Engineer 
-                        at Numina Group, a warehouse automation company, where I’m transforming their legacy systems into modern tools. I’ve built a React 
-                        proof-of-concept, developed Java applications running on Raspberry Pi workstations for warehouse operators, and, my most recent project, 
-                        co-leading the creation of Numina’s first API using Go and Domain-Driven Design.
+                        I’m Chan W. Ng Cashin, a Purdue University graduate holding a Bachelor of Science in Electrical and Computer Engineering. I’m passionate about building 
+                        innovative software solutions that combine cutting-edge technology with real-world impact. 
+                    </p>
+                    <p className="pt-8 text-2xl text-zinc-400">
+                        I currently work as an Associate Software Engineer at Numina Group, a warehouse distribution automation company. In this role, I’m helping modernize the 
+                        company’s legacy systems by transitioning them into scalable, contemporary platforms. One of my first major contributions was co-leading the development 
+                        of Numina’s inaugural internal Go based API. This API serves as the foundation for replacing outdated Java applications with modern, cloud-ready solutions. 
+                        Key projects include upgrading legacy Java-based warehouse operation workstations and transforming the customer-facing dashboard from Angular/HTML5 into a sleek, 
+                        fully modern frontend using React and TypeScript, backed by the new Go API. These redesigned products deliver a significantly more professional and contemporary 
+                        user experience while gaining full cloud-hosting capabilities, enabling greater scalability and flexibility for the future.
                     </p>
                     <p className="pt-8 text-2xl text-zinc-400">
                         My journey in tech is built on a strong foundation of diverse experiences. As a Software Development Intern at Revibe Technologies, 
-                        I spearheaded a mobile app facelift, converting a Material UI-based React.js frontend. Before that, as a Data Science Intern at Revibe, 
-                        I optimized a fidget-detection algorithm for their digital theraputic device. These roles, combined 
-                        with personal projects like an RFID Attendance Tracker and a Video Game Collection Website, have honed my skills in JavaScript, Python, 
-                        React, SQL, and AWS.
+                        I spearheaded a mobile app facelift. Before that, as a Data Science Intern at Revibe, I optimized a fidget-detection algorithm for their digital theraputic device. These roles, combined 
+                        with personal projects like an RFID Attendance Tracker and a Video Game Collection Website, have honed my skills as a developer.
                     </p>
                     <p className="pt-8 text-2xl text-zinc-400 hidden xl:flex">
                         Outside of code, I’m an Eagle Scout with a Triple Crown award and a former Sigma Chi Magister, where I led recruitment and raised 

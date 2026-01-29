@@ -1,12 +1,8 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/lJwnQlHSEBA
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
-import { Sheet, SheetTrigger, SheetContent, SheetClose } from "@/components/ui/sheet"
+import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
-import { MenuIcon, TrainFrontTunnel } from "lucide-react"
+import { MenuIcon } from "lucide-react"
 import C from "/C.png";
+import { Contact } from "./Contact";
 
 export function Navbar() {
   return (
@@ -41,24 +37,27 @@ export function Navbar() {
         <span className="sr-only">Chan Ng Cashin</span>
       </a>
       <nav className="ml-auto hidden lg:flex gap-6">
-        <a
-          href="#home"
-          className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800"
+        <Button 
+          variant="outline"
+          className="text-yellow-500 text-lg border-0"
         >
-          Home
-        </a>
-        <a
-          href="#about"
-          className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800"
+          <a
+            href="#home"
+          >
+            Home
+          </a>
+        </Button>
+        <Button 
+          variant="outline"
+          className="text-yellow-500 text-lg border-0"
         >
-          About
-        </a>
-        <a
-          href="#contact"
-          className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-zinc-800 px-4 py-2 text-lg text-yellow-500 font-md hover:bg-yellow-500 hover:text-zinc-800 active:bg-yellow-700 active:text-zinc-800 focus:bg-yellow-500 focus:text-zinc-800"
-        >
-          Contact
-        </a>
+          <a
+            href="#about"
+          >
+            About
+          </a>
+        </Button>
+        <Contact />
       </nav>
     </header>
   )
